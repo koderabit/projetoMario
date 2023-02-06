@@ -6,9 +6,8 @@
 }
 
 .gameBoard {
-    width: 80vw;
-    height: 500px;
-    border: 1px solid rgb(10, 10, 10);
+    width: 100vw;
+    height: 100vh;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
@@ -75,5 +74,12 @@
     }
 }
 
-
+.gameOver {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
 
